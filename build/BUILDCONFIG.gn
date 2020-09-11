@@ -1,0 +1,4 @@
+set_default_toolchain("//build/toolchains:gcc")
+
+cflags_cc = [ "-std=c++14" ]
+include_dirs = [ "//" ]
